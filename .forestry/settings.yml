@@ -15,6 +15,9 @@ sections:
 - type: document
   path: exampleSite/content/french/_index.md
   label: Homepage (fr)
+- type: document
+  path: exampleSite/content/romanian/_index.md
+  label: Homepage (ro)
 - type: heading
   label: Blog
 - type: document
@@ -26,6 +29,9 @@ sections:
 - type: document
   path: exampleSite/content/french/blog/_index.md
   label: Blog Page (fr)
+- type: document
+  path: exampleSite/content/romanian/blog/_index.md
+  label: Blog Page (ro)
 - type: directory
   path: exampleSite/content/english/blog
   label: Blog Post (en)
@@ -50,6 +56,14 @@ sections:
   exclude: _index.md
   templates:
     - post
+- type: directory
+  path: exampleSite/content/romanian/blog
+  label: Blog Post (ro)
+  create: documents
+  match: "**/*"
+  exclude: _index.md
+  templates:
+    - post
 - type: heading
   label: Others Page
 - type: document
@@ -62,6 +76,9 @@ sections:
   path: exampleSite/content/french/contact/_index.md
   label: Contact (fr)
 - type: document
+  path: exampleSite/content/romanian/contact/_index.md
+  label: Contact (ro)
+- type: document
   path: exampleSite/content/english/pricing/_index.md
   label: Pricing (en)
 - type: document
@@ -71,6 +88,9 @@ sections:
   path: exampleSite/content/french/pricing/_index.md
   label: Pricing (fr)
 - type: document
+  path: exampleSite/content/romanian/pricing/_index.md
+  label: Pricing (ro)
+- type: document
   path: exampleSite/content/english/faq/_index.md
   label: FAQ (en)
 - type: document
@@ -79,6 +99,9 @@ sections:
 - type: document
   path: exampleSite/content/french/faq/_index.md
   label: FAQ (fr)
+- type: document
+  path: exampleSite/content/romanian/faq/_index.md
+  label: FAQ (ro)
 - type: heading
   label: All Pages
 - type: directory
@@ -112,6 +135,9 @@ sections:
 - type: document
   path: exampleSite/config/_default/menus.fr.toml
   label: Menu (fr)
+- type: document
+  path: exampleSite/config/_default/menus.ro.toml
+  label: Menu (ro)
 upload_dir: exampleSite/static/images
 public_path: "/images"
 front_matter_path: ''

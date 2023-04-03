@@ -35,9 +35,23 @@ title = "Bigspring Hugo"
 contentDir = "content/french" # content/french
 weight = 2
 ########### footer content ##########
-footer_menu_left = "Firma french"
+footer_menu_left = "Company"
 footer_menu_middle = "Product"
 footer_menu_right = "Support"
 footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 # copyright
 copyright = "Design von [Themefisher](https://themefisher.com/) Entwickelt von [Gethugothemes](https://gethugothemes.com/)"
+
+############################# Romanian ############################
+[ro]
+languageName = "Ro"
+title = "Bigspring Hugo"
+contentDir = "content/romanian" # content/french
+weight = 2
+########### footer content ##########
+footer_menu_left = "Companie"
+footer_menu_middle = "Produs"
+footer_menu_right = "Suport"
+footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+# copyright
+copyright = "Copyright © 2019 [Themefisher](https://themefisher.com/) | Design by [Themefisher](https://themefisher.com/) | Developed by [Gethugothemes](https://gethugothemes.com/)"
