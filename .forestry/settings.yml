@@ -55,7 +55,7 @@ sections:
   match: "**/*"
   exclude: _index.md
   templates:
-    - post
+  - post
 - type: directory
   path: exampleSite/content/romanian/blog
   label: Blog Post (ro)
@@ -63,7 +63,7 @@ sections:
   match: "**/*"
   exclude: _index.md
   templates:
-    - post
+  - post
 - type: heading
   label: Others Page
 - type: document
