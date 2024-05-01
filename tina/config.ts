@@ -8,7 +8,7 @@ const branch =
   process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
   process.env.HEAD ||
-  "main";
+  "master";
 
 export default defineConfig({
   branch,
@@ -691,7 +691,7 @@ export default defineConfig({
         format: "toml",
         label: "Variables & Plugins",
         name: "variables___plugins",
-        path: ".",
+        path: "",
         frontmatterFormat: "yaml",
         ui: {
           allowedActions: {
