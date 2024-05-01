@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Test Autismxchange updated <br> development challenges
+  title: TestAutismxchange updated <br> development challenges
   image: images/banner-art.svg
   content: >-
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim
