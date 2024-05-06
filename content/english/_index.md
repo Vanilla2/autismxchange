@@ -14,6 +14,9 @@ feature:
   enable: true
   title: Something You Need To Know
   feature_item:
+    - name: ''
+      icon: ''
+      content: ''
     - name: Clean Code
       icon: fas fa-code
       content: Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil
