@@ -1,30 +1,8 @@
-# main menu
 [[main]]
 name = "Home"
 url = "/"
 weight = 1
 
-[[main]]
-name = "Blog"
-url = "blog/"
-weight = 2
-
-[[main]]
-name = "Pricing"
-url = "pricing/"
-weight = 3
-
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 4
-
-[[main]]
-name = "FAQ"
-url = "faq/"
-weight = 5
-
-# footer menu left
 [[footer_left]]
 name = "About Us"
 url = "#"
@@ -37,8 +15,6 @@ url = "#"
 name = "Pricing"
 url = "pricing/"
 
-
-# footer menu middle
 [[footer_middle]]
 name = "Pricing"
 url = "pricing/"
@@ -51,7 +27,6 @@ url = "#"
 name = "Features"
 url = "#"
 
-# footer menu right
 [[footer_right]]
 name = "Privacy Policy"
 url = "privacy-policy/"
